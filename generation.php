@@ -15,5 +15,5 @@ $data .=  '<strong>email:</strong>' .  $email;
 
 $mpdf->WriteHTML($data);                                   //writing pdf
 
-$mpdf->Output('myfile.pdf','D');                    //output
+$mpdf->Output('myfile.pdf','I');                    //output
 
