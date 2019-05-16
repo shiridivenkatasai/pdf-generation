@@ -11,7 +11,7 @@ $data = '';
 $data .= '<h1>Hi,here your details</h1>';
 
 $data .=  '<strong>Name:</strong>'  .  $name  .  '<br/>';           //adding data
-$data .=  '<strong>email:</strong>' .  $email;
+$data .=  '<strong>E-Mail:</strong>' .  $email;
 
 $mpdf->WriteHTML($data);                                   //writing pdf
 
